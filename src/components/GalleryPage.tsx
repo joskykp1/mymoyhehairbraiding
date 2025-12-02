@@ -26,6 +26,8 @@ const GalleryPage = () => {
             "/images/boxb10.jpg",
             "/images/boxb11.jpg",
             "/images/boxbn.jpg",
+      "/images/boxbr.jpg",
+      "/images/borabraids.jpg",
             "/images/borabora.jpg",
             "/images/conrows.jpg",
             "/images/IMG-20251024-WA0008.jpg",
@@ -72,5 +74,6 @@ const GalleryPage = () => {
     </section>
   );
 };
+
 
 export default GalleryPage;
