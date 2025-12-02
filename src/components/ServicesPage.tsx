@@ -18,9 +18,11 @@ const ServicesPage = () => {
           {[
             { title: "Cornrows",  desc: "Tension-free, natural looking braids that protect your edges.", img: "/images/conrows.jpg" },
             { title: "Boho Box Braids", desc: "The trendy bohemian look with curly ends for a soft finish.", img: "/images/bohobox1.jpg" },
-            { title: "Traditional Box Braids", desc: "Classic, versatile, and long-lasting protective style.", img: "/images/boxb5.jpg" },
-            { title: "Mohawk Braids", desc: "Edgy, bold style with shaved sides and braided center strip.", img: "/images/boxb1.jpg" },
-            { title: "Bora Braids",  desc: "Unique braided patterns for a distinctive look.", img: "/images/borabora.jpg" },
+            { title: "Traditional Box Braids", desc: "Classic, versatile, and long-lasting protective style.", img: "/images/boxbr.jpg" },
+            { title: "Mohawk Braids", desc: "Edgy, bold style with shaved sides and braided center strip.", img:  "/images/borabora.jpg" },
+            { title: "Bora Braids ",  desc: "Unique braided patterns for a distinctive look.", img: "/images/borabraids.jpg" },
+            { title: "Knotless Braids", desc: "Iconic, resilient , and long-lasting protective style.", img: "/images/boxb5.jpg" },
+      
           ].map((service, index) => (
             <motion.div
               key={index}
@@ -54,5 +56,6 @@ const ServicesPage = () => {
     </section>
   );
 };
+
 
 export default ServicesPage;
